@@ -1,0 +1,42 @@
+body {
+ padding: 50px;
+ justify-content: center;
+ background-image: url(./images/weather-forecast-149324_1280.png);
+
+}
+#container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.heading{
+  color: red;
+  font-family: 'Anton', sans-serif;
+}
+.App{
+  background-color: rgb(43, 43, 170);
+  padding: 20px;
+  box-shadow: 5px 10px 8px rgb(129, 128, 128);
+}
+input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color:  rgba(82, 82, 190, 0.986);
+  color: white;
+  outline: none;
+  border-style: none;
+}
+::placeholder{
+  color:rgba(255, 255, 255, 0.541);
+
+}
+#searchbtn{
+  color:white ;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.weath{
+  color:white;
+}
